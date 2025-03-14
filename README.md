@@ -108,7 +108,6 @@ Added room: 204 to Hotel ID 2
 1. Choose an option (1-9): 3
 2. User ID: 2
 3. Room ID: 2
-
 - **Output**:
 Room 101 booked for Allan Wex
 
@@ -125,31 +124,24 @@ Booking canceled for Room 101
 - **Steps**:
 1. Choose an option (1-9): 5
 - **Output**:
-
 ID: 1, Room: 101, Hotel: Default Hotel, Price: $100.0, Status: Available
 ID: 4, Room: 262, Hotel: Ocean Breeze Hotel, Price: $150.0, Status: Available
-
 
 ### Database Access 
 Data is stored in hotel_reservation.db. To verify or modify it:
 Access SQLite:
 bash
-
-
 ### Step 1: Run SQL Queries to Confirm Data
-You’ve already opened the database with:
-
+You open the database with:
 1. sqlite3 hotel_reservation.db
 
 2. List Tables:
    .tables
-
 **Output**: 
  alembic_version  hotels  rooms  users
 
 ### Check Data:
 3. List Hotels:
-
 - SELECT * FROM hotels;
 -**Output**:
 1|Default Hotel|City Center
@@ -158,11 +150,8 @@ You’ve already opened the database with:
 4|Sunset Retreat|Bali
 
 5. List Users:
-
 - SELECT * FROM users;
-
 -**Output**:
-
 1|Amanda Ongeti|amandao@gmail.com
 2|Allan Wex|allanwex@gmail.com
 3|Mary Machuma|machmary173@gmail.com
