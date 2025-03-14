@@ -6,14 +6,15 @@ A command-line interface (CLI) application built in Python for managing hotel re
 
 1. **Clone the Repository**:
    ```bash
-   git clone 
-   cd hotel-system
- 1.Clone or Create the Project Repository:
+     git@github.com:MaryMachuma/hotel_reservation.git
+   ```
+  ```bash
+     cd hotel-system
+  ```
 Initialize a local Git repository:
 ```⁠bash
-  git init
+   git init
 ```
-
 ⁠  2.Navigate to the Project Directory:
 ``` ⁠bash
    cd hotel_system
