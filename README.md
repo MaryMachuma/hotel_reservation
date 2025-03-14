@@ -88,7 +88,7 @@ Added room: 204 to Hotel ID 2
 - **Command**: Book a room for a user (e.g., User ID 2 is Allan Wex, Room ID 2 is Room 101 in Ocean Breeze Hotel).
 
 - **Steps**:
-1. Choose an option (1-8): 3
+1. Choose an option (1-9): 3
 2. User ID: 2
 3. Room ID: 2
 
@@ -99,7 +99,7 @@ Room 101 booked for Allan Wex
 - **Command**: Cancel a booking (e.g., Room ID 2).
 
 - **Steps**:
-1. Choose an option (1-8): 4
+1. Choose an option (1-9): 4
 2. Room ID: 2
 - **Output**:
 Booking canceled for Room 101
@@ -107,7 +107,7 @@ Booking canceled for Room 101
 ### List Available Rooms
 - **Commandnd**: Show all available rooms.
 - **Steps**:
-1. Choose an option (1-8): 5
+1. Choose an option (1-9): 5
 - **Output** (example based on current data, assuming Room 2 is booked):
 
 ID: 1, Room: 101, Hotel: Default Hotel, Price: $100.0, Status: Available
