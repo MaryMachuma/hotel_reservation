@@ -1,6 +1,13 @@
-### Hotel Reservation System 🏨
-A simple command-line hotel reservation system built with Python, SQLAlchemy, and Click. This project allows users to manage guest details, check room availability, and book or cancel reservations.
+### Hotel Reservation CLI System 🏨
 
+A command-line interface (CLI) application built in Python for managing hotel reservations. Users interact via a menu to add hotels, rooms, and users, book and cancel rooms, list available rooms, and perform admin tasks, with data stored in an SQLite database.
+
+## Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone 
+   cd hotel-system
  1.Clone or Create the Project Repository:
 Initialize a local Git repository:
 ```⁠bash
