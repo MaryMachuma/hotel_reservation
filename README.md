@@ -81,6 +81,16 @@ Choose an option (1-9):
 - **Output**:
 Added user: Jane Smith
 
+## Add Hotel
+- **Command** Add a new hotel.
+- **Steps**:
+1. Choose an option (1-9): 8
+2. Hotel Name: Nairobi Serena Hotel
+3. Hotel Location: Nairobi, Kenya
+
+ - **Output**:
+  Added hotel: Nairobi Serena Hotel in Nairobi, Kenya
+ 
 ## Add Room
 -**Command**: Add a room to a hotel (e.g., Hotel ID 2 is Ocean Breeze Hotel).
 - **Steps**:
@@ -94,7 +104,6 @@ Added room: 204 to Hotel ID 2
 
 ## Book Room
 - **Command**: Book a room for a user (e.g., User ID 2 is Allan Wex, Room ID 2 is Room 101 in Ocean Breeze Hotel).
-
 - **Steps**:
 1. Choose an option (1-9): 3
 2. User ID: 2
@@ -105,18 +114,17 @@ Room 101 booked for Allan Wex
 
 ## Cancel Booking
 - **Command**: Cancel a booking (e.g., Room ID 2).
-
 - **Steps**:
 1. Choose an option (1-9): 4
 2. Room ID: 2
 - **Output**:
 Booking canceled for Room 101
 
-### List Available Rooms
+## List Available Rooms
 - **Commandnd**: Show all available rooms.
 - **Steps**:
 1. Choose an option (1-9): 5
-- **Output** (example based on current data, assuming Room 2 is booked):
+- **Output**:
 
 ID: 1, Room: 101, Hotel: Default Hotel, Price: $100.0, Status: Available
 ID: 4, Room: 262, Hotel: Ocean Breeze Hotel, Price: $150.0, Status: Available
