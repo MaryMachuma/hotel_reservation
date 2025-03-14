@@ -66,7 +66,7 @@ Choose an option (1-9):
 ## Add User
 - **Command** Add a new user.
 - **Steps**:
-1. Choose an option (1-8): 2
+1. Choose an option (1-9): 2
 2. User Name: Jane Smith
 3. User Email: jane.smith@example.com
 
@@ -76,7 +76,7 @@ Added user: Jane Smith
 ## Add Room
 -**Command**: Add a room to a hotel (e.g., Hotel ID 2 is Ocean Breeze Hotel).
 - **Steps**:
-1. Choose an option (1-8): 1
+1. Choose an option (1-9): 1
 2. Hotel ID: 2
 3. Room Number: 204
 4. Price per Night: 250
